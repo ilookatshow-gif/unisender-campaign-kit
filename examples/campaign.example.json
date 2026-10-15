@@ -1,0 +1,7 @@
+{
+  "sender_email": "sender@mail.example.invalid",
+  "sender_name": "Synthetic demonstration only",
+  "subject": "Synthetic offline campaign",
+  "html_body": "<p>Synthetic fixture; not a real email.</p><a href=\"{{UnsubscribeUrl}}\">Unsubscribe</a>",
+  "list_id": 1
+}

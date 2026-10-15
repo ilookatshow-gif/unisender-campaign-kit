@@ -1,0 +1,7 @@
+email,consent,consent_at,consent_evidence,consent_expires_at,unsubscribed
+first@people.example.invalid,true,2026-10-01T12:00:00Z,synthetic-opt-in-1,,false
+FIRST@people.example.invalid,true,2026-10-01T12:00:00Z,synthetic-opt-in-1,,false
+suppressed@people.example.invalid,true,2026-10-01T12:00:00Z,synthetic-opt-in-2,,false
+expired@people.example.invalid,true,2026-09-01T12:00:00Z,synthetic-opt-in-3,2026-10-01T12:00:00Z,false
+withdrawn@people.example.invalid,true,2026-10-01T12:00:00Z,synthetic-opt-in-4,,true
+unknown@people.example.invalid,false,2026-10-01T12:00:00Z,synthetic-no-permission,,false

@@ -1,0 +1,41 @@
+{
+  "id": "unisender-campaign-kit",
+  "version": "0.1.0",
+  "author": "Дмитрий Лукашов",
+  "scope": "Standalone offline Python CLI for a locally supplied UniSender Classic email draft, permission ledger and suppression CSV. Deterministic campaign checks, row-level exclusions and synthetic demo. No authentication, API calls, subscription, contact import, schedule, sending, MCP or certification of consent/legal permission/delivery.",
+  "rights_status": "original_code_reviewed",
+  "license": "MIT",
+  "origin": "New original source, documentation and invented fixtures prepared from scratch for the owner's open-module task in October 2026, with disclosed AI assistance. No private core, client records or third-party skill corpus copied. Official UniSender documentation was used to verify Classic semantics, not redistributed.",
+  "dependencies": "Python 3.9+ standard library only",
+  "synthetic_example": true,
+  "telemetry": false,
+  "network_access": false,
+  "provider_authentication": false,
+  "provider_writes": false,
+  "sending_supported": false,
+  "live_provider_verified": false,
+  "channel": "https://t.me/lookatsoul",
+  "catalog": "https://github.com/ilookatshow-gif/lookatshow-open-tools",
+  "site": "https://lookatshow.ru/ai-implementation/?utm_source=github&utm_medium=open_module&utm_campaign=unisender-campaign-kit&utm_content=module",
+  "search_intent": {
+    "ru": "проверка email-рассылки UniSender Classic; реестр согласий; дубли и отписки; подготовка рассылки с ИИ-агентом без отправки",
+    "en": "UniSender Classic offline email campaign preflight; permission ledger and suppression checks; duplicate and unsubscribe audit for AI agents"
+  },
+  "suggested_description": "Offline UniSender Classic campaign, permission-ledger and suppression preflight for AI agents. Synthetic demo; no API key, contact import or sending.",
+  "suggested_topics": ["email-marketing", "unisender", "campaign-planning", "suppression-list", "consent-management", "ai-agents", "python", "offline-first"],
+  "publish_files": [
+    "lookatshow_mail_plan.py",
+    "install.py",
+    "README.md",
+    "README.ru.md",
+    "LICENSE",
+    "NOTICE.md",
+    "MODULE.json",
+    "AGENTS.md",
+    "skills/unisender-campaign-kit/SKILL.md",
+    "tests/test_mail_plan.py",
+    "examples/campaign.example.json",
+    "examples/contacts.example.csv",
+    "examples/suppression.example.csv"
+  ]
+}
